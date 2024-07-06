@@ -1,0 +1,59 @@
+import time
+
+def title_slide():
+    print("Welcome to Phishing Awareness Training\n")
+    input("Press Enter to continue...")
+    print("\nObjective: Educate participants about phishing attacks, their risks, and prevention measures.\n")
+    input("Press Enter to continue...")
+
+def slide(content):
+    print(content)
+    input("\nPress Enter to continue...")
+
+def define_phishing():
+    slide("What is Phishing?")
+    slide("Phishing is an attempt to obtain sensitive information such as usernames, passwords, and credit card details by disguising as a trustworthy entity.")
+
+def types_of_attacks():
+    slide("Types of Phishing Attacks")
+    slide("- Email Phishing: Deceptive emails tricking users into revealing information or downloading malicious attachments.")
+    slide("- Website Phishing: Fake websites mimicking legitimate ones to steal login credentials or financial information.")
+    slide("- Social Engineering: Manipulative tactics like pretexting and baiting to deceive victims into divulging information or performing actions.")
+
+def signs_of_phishing():
+    slide("Signs of a Phishing Attempt")
+    slide("- Generic greetings or urgent requests")
+    slide("- Misspelled words or poor grammar")
+    slide("- Suspicious sender’s email address or URL")
+    slide("- Requests for sensitive information or immediate action")
+
+def protect_yourself():
+    slide("How to Protect Yourself")
+    slide("- Verify Sources: Always verify requests for sensitive information through official channels.")
+    slide("- Hover Before Clicking: Hover over links to reveal the true destination before clicking.")
+    slide("- Think Before You Act: Pause and think critically before responding to unexpected requests or clicking on links.")
+    slide("- Enable Two-Factor Authentication: Enhance security by using two-factor authentication wherever possible.")
+    slide("- Report Suspicious Activity: Report phishing attempts to IT/security teams immediately.")
+
+def real_life_examples():
+    slide("Real-Life Examples and Case Studies")
+    slide("Present real-life examples of successful phishing attacks and their consequences.")
+    slide("Discuss what could have been done to prevent these attacks.")
+
+def conclusion():
+    slide("Conclusion")
+    slide("Phishing attacks are prevalent and can cause significant harm. By staying vigilant and following best practices, you can protect yourself and your organization from falling victim to these attacks.")
+    slide("Thank you for participating in the Phishing Awareness Training. Stay safe online!")
+
+def run_training():
+    title_slide()
+    define_phishing()
+    types_of_attacks()
+    signs_of_phishing()
+    protect_yourself()
+    real_life_examples()
+    conclusion()
+
+# Run the training program
+run_training()
+
